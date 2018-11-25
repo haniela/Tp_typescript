@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var date_1 = require("./date");
+var task_1 = require("./task");
+var jour = new date_1["default"](2018, 11, 24);
+jour.toString();
+jour.Create(2018, 11, 24);
+var priori;
+var tache = new task_1["default"](tache.content, jour, priori, true);
+tache.toString(tache);
+var test;
+test.addtask(tache, tache);
